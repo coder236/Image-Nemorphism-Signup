@@ -1,0 +1,136 @@
+body{
+    margin:0;
+    padding:0;
+    background-image: url(leaf.jpg);
+    background-size:cover;
+    letter-spacing: 0.5px;
+}
+
+.wrapper{
+    width:400px;
+    height:400px;
+    color:#000;
+    top: 50%;
+    left:50% ;
+    padding: 60px 30px;
+    position: absolute;
+    transform:translate(-50%,-50%);
+    background-image: url(leaf.jpg);
+    background-size:cover;
+    box-sizing:border-box;
+    box-shadow: 
+     -3px -3px 10px rgb(59, 59, 59),
+     3px 3px 10px #000;
+
+}
+h1{
+    margin:0;
+    padding:0;
+    font-weight:bold;
+    font-size:30px;
+    color: #fff;
+    text-align:center;
+    margin-bottom:8%;
+    text-shadow: 3px 2px 2px #000;
+}
+
+.wrapper input{
+    width:100%;
+    margin-bottom:20px;
+}
+
+.wrapper input[type=email],.wrapper input[type=password]{
+    border-radius: 2px;
+    border:1px solid #ddd;
+    box-shadow: inset -1px -1px 2px #c2ccca, 
+                 1px 1px 2px #cad4d2;
+    width:transparent;
+    transition: all 0.2s ease-in-out;
+    outline:none;
+    height:30px;
+    font-size:16px;
+    opacity:1;
+    padding:15px;
+    color:#000;
+}
+
+.wrapper input[type=email]:focus,.wrapper input[type=password]:focus{
+    box-shadow:
+    inset 2px 2px 2px #babecc,
+    inset -2px -2px 2px #fff;
+    color:#000;
+}
+
+.wrapper input[type=submit]{
+    border:none;
+    outline:none;
+    height:40px;
+    background:#07aa66;/*#eb134dde;*/
+    box-shadow:  1px 1px 3px #095c39, 
+         -1px -1px 3px #30aa77;
+    color: #fff;
+    text-shadow: 1px 2px 2px #000;
+    font-size:14px;
+    font-weight:bold;
+}
+
+.wrapper input[type=submit]:hover{
+    cursor: pointer;
+    background: #095c39;
+    box-shadow: inset 2px 2px 3px #81c2a7, 
+            inset -2px -2px 3px #07aa66;
+
+}
+
+.wrapper a{
+   font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.wrapper a:hover{
+    color: #fff;
+    opacity: 1;
+}
+
+.bottom-text input{
+    width:10%;
+    float:left;
+}
+
+.bottom-text a{
+    float: right;
+}
+
+.bottom-text a:hover{
+    color:#07b66d;
+}
+
+.bottom{
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;;
+}
+
+.bottom p{
+    color:#fff;
+}
+.bottom a{
+    color:rgb(240, 15, 15);
+    text-shadow:1px 1px 1px #000;
+}
+
+.bottom a:hover{
+    color:#07b66d;
+}
+
+.overlay-area{
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    z-index: -5;
+    height: 100%;
+    width:100%;
+    top:0;
+    bottom:0;
+}
